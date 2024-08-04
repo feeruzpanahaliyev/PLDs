@@ -1,0 +1,59 @@
+/* UserCard.css */
+
+.user-card {
+    background: #fdfdfd;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+  }
+  
+  .user-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-card h3 {
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .user-card p {
+    margin: 0 0 5px;
+    color: #777;
+  }
+  
+  .user-card .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .user-card .edit-button {
+    padding: 7px 10px;
+    background: #FFC107;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .user-card .edit-button:hover {
+    background: #e0a800;
+  }
+  
+  .user-card .delete-button {
+    padding: 7px 10px;
+    background: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .user-card .delete-button:hover {
+    background: #d32f2f;
+  }
+  

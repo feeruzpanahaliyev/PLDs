@@ -1,0 +1,39 @@
+/* UserForm.css */
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #fff;
+    color: #000;
+    /* Text color set to black */
+}
+
+.user-form button {
+    padding: 10px 15px;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.user-form button:hover {
+    background: #45a049;
+}
+
+.user-form .cancel-button {
+    background: #f44336;
+}
+
+.user-form .cancel-button:hover {
+    background: #d32f2f;
+}
